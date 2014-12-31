@@ -17,4 +17,14 @@ $ npm install json-value
 
 ``` js
 var jsonValue = require('json-value');
+
+var json = {
+  foo: '123',
+  bar: {
+    name: 'ruan',
+    age: 12
+  }
+};
+
+jsonValue(json, 'bar.name'); //shoud be 'ruan'
 ```
