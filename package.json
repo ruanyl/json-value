@@ -1,0 +1,27 @@
+{
+  "name": "json-value",
+  "version": "0.0.1",
+  "description": "retrieve value from json with a given keys string \"foo.bar.val\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/json-value"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Yulong Ruan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/json-value/issues"
+  },
+  "homepage": "https://github.com/ruanyl/json-value",
+  "dependencies": {
+    "ava": "0.0.4",
+    "simple-type": "0.0.1"
+  },
+  "devDependencies": {}
+}
